@@ -14,5 +14,6 @@ client.on('message', message => {
 if (message.content === 'Sa') {
 	message.channel.send('Aleyküm selam, hoşgeldin');
 }
+});
 
 client.login(seçenekler.token);
