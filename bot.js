@@ -9,6 +9,8 @@ const log = message => {
   console.log(`Bot bağlandı`);
 };
 
+
+client.on('message', message => {
 if (message.content === 'Sa') {
 	message.channel.send('Aleyküm selam, hoşgeldin');
 }
